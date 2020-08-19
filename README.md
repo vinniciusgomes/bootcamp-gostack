@@ -33,6 +33,11 @@
 <br />
 <span>Nesse desafio, você deve criar uma aplicação para treinar o que você aprendeu até agora no React-Native!</span>
 
+<h3>Módulo 04</h3>
+<b>TypeScript ✅</b>
+<br />
+<span>Vamos agora aprender os primeiros conceitos de TypeScript e aplicar nos projetos que já desenvolvemos até aqui.</span>
+
 ## :memo: Licença
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
