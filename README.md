@@ -38,6 +38,13 @@
 <br />
 <span>Vamos agora aprender os primeiros conceitos de TypeScript e aplicar nos projetos que já desenvolvemos até aqui.</span>
 
+## Nível 02 🚀
+
+<h3>Módulo 05</h3>
+<b>Primeiro projeto com Node.JS</b>
+<br />
+<span>Nessa fase vamos aprender a configurar um projeto do total zero utilizando Node.js e TypeScript incluindo ferramentas como ts-node-dev, ESLint, Prettier, EditorConfig.</span>
+
 ## :memo: Licença
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
