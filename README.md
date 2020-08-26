@@ -41,7 +41,7 @@
 ## Nível 02 🚀
 
 <h3>Módulo 05</h3>
-<b>Primeiro projeto com Node.JS</b>
+<b>Primeiro projeto com Node.JS ✅</b>
 <br />
 <span>Nessa fase vamos aprender a configurar um projeto do total zero utilizando Node.js e TypeScript incluindo ferramentas como ts-node-dev, ESLint, Prettier, EditorConfig.</span>
 
