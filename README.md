@@ -44,6 +44,10 @@
 <b>Primeiro projeto com Node.JS ✅</b>
 <br />
 <span>Nessa fase vamos aprender a configurar um projeto do total zero utilizando Node.js e TypeScript incluindo ferramentas como ts-node-dev, ESLint, Prettier, EditorConfig.</span>
+<br />
+<b>Desafio: Fundamentos Node.js ✅</b>
+<br />
+<span>Nesse desafio, você deve criar uma aplicação para continuar treinando o que você aprendeu até agora no Node.js junto ao TypeScript, utilizando o conceito de models, repositories e services!</span>
 
 ## :memo: Licença
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
