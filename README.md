@@ -49,8 +49,15 @@
 <br />
 <span>Nesse desafio, você deve criar uma aplicação para continuar treinando o que você aprendeu até agora no Node.js junto ao TypeScript, utilizando o conceito de models, repositories e services!</span>
 
+<h3>Módulo 06</h3>
+<b>Iniciando back-end do app ✅</b>
+<br />
+<span>Nessa etapa vamos continuar os aprendizados com Node.js aproveitando o projeto desenvolvido até agora para começar a trabalhar com conceitos de banco de dados, autenticação, autorização, etc.</span>
+
 ## :memo: Licença
+
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
 ---
+
 Feito com 💜 by Vinnicius Gomes :wave: [Get in touch!](https://www.linkedin.com/in/vinniciusgomes/)
