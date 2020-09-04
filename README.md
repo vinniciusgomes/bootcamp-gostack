@@ -53,6 +53,34 @@
 <b>Iniciando back-end do app ✅</b>
 <br />
 <span>Nessa etapa vamos continuar os aprendizados com Node.js aproveitando o projeto desenvolvido até agora para começar a trabalhar com conceitos de banco de dados, autenticação, autorização, etc.</span>
+<b>Desafio: Database upload ✅</b>
+<br />
+<span>Nesse desafio, você deve continuar desenvolvendo a aplicação de gestão de transações, treinando o que você aprendeu até agora no Node.js junto ao TypeScript, mas dessa vez incluindo o uso de banco de dados com o TypeORM e envio de arquivos com o Multer!</span>
+
+## Nível 03 🚀
+
+<h3>Módulo 07</h3>
+<b>Primeiro projeto com React ✅</b>
+<br />
+<span>Nessa etapa daremos início ao aprendizado do ReactJS, criando o primeiro projeto já utilizando TypeScript. Nesse ponto o dev já deve conhecer os conceitos de componente, estado e propriedades mas eles serão lembrados durante as aulas.</span>
+<br />
+<b>Desafio: Fundamentos ReactJS </b>
+<br />
+<span>Nesse desafio, você deve continuar desenvolvendo a aplicação de gestão de transações, a GoFinances. Agora você irá praticar o que você aprendeu até agora no React.js junto com TypeScript, utilizando rotas e envio de arquivos por formulário.</span>
+
+<h3>Módulo 08</h3>
+<b>Iniciando front-end do app</b>
+<br />
+<span>Durante esse módulo criaremos a versão web da aplicação GoBarber que será utilizada pelos usuários que prestam serviços dentro da aplicação.</span>
+
+<h3>Módulo 09</h3>
+<b>Iniciando aplicativo mobile</b>
+<br />
+<span>Nesse módulo criaremos a versão mobile do GoBarber que será utilizada pelos usuários para agendar serviços dentro da plataforma.</span>
+<br />
+<b>Desafio: Fundamentos React-Native </b>
+<br />
+<span>Nesse desafio, desenvolverá uma nova aplicação, a GoMarketplace. Dessa vez é hora de você praticar o que você aprendeu até agora no React Native, junto com TypeScript, utilizando rotas, Async Storage e a Context API.</span>
 
 ## :memo: Licença
 
