@@ -13,14 +13,18 @@ interface Request {
 }
 
 class CreateTransactionService {
-  public async execute({ title, value, type, category }: Request): Promise<Transaction> {
-    const transactionRepository =  getCustomRepository(TransactionRepository);
+  public async execute({
+    title,
+    value,
+    type,
+    category,
+  }: Request): Promise<Transaction> {
+    const transactionRepository = getCustomRepository(TransactionRepository);
     const categoryRepository = getRepository(Category);
-
 
     const { total } = await transactionRepository.getBalance();
 
-    if ( type === "outcome" && total < value) {
+    if (type === 'outcome' && total < value) {
       throw new AppError('You do not have enough credit');
     }
 
@@ -32,7 +36,7 @@ class CreateTransactionService {
 
     if (!transactionCategory) {
       transactionCategory = categoryRepository.create({
-        title: category,
+        title,
       });
       await categoryRepository.save(transactionCategory);
     }
@@ -42,7 +46,7 @@ class CreateTransactionService {
       value,
       type,
       category: transactionCategory,
-    })
+    });
 
     await transactionRepository.save(transaction);
 

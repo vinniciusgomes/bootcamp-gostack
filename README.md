@@ -64,7 +64,7 @@
 <br />
 <span>Nessa etapa daremos início ao aprendizado do ReactJS, criando o primeiro projeto já utilizando TypeScript. Nesse ponto o dev já deve conhecer os conceitos de componente, estado e propriedades mas eles serão lembrados durante as aulas.</span>
 <br />
-<b>Desafio: Fundamentos ReactJS </b>
+<b>Desafio: Fundamentos ReactJS ✅</b>
 <br />
 <span>Nesse desafio, você deve continuar desenvolvendo a aplicação de gestão de transações, a GoFinances. Agora você irá praticar o que você aprendeu até agora no React.js junto com TypeScript, utilizando rotas e envio de arquivos por formulário.</span>
 
