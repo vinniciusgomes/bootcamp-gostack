@@ -53,6 +53,7 @@
 <b>Iniciando back-end do app ✅</b>
 <br />
 <span>Nessa etapa vamos continuar os aprendizados com Node.js aproveitando o projeto desenvolvido até agora para começar a trabalhar com conceitos de banco de dados, autenticação, autorização, etc.</span>
+<br />
 <b>Desafio: Database upload ✅</b>
 <br />
 <span>Nesse desafio, você deve continuar desenvolvendo a aplicação de gestão de transações, treinando o que você aprendeu até agora no Node.js junto ao TypeScript, mas dessa vez incluindo o uso de banco de dados com o TypeORM e envio de arquivos com o Multer!</span>
