@@ -70,7 +70,7 @@
 <span>Nesse desafio, você deve continuar desenvolvendo a aplicação de gestão de transações, a GoFinances. Agora você irá praticar o que você aprendeu até agora no React.js junto com TypeScript, utilizando rotas e envio de arquivos por formulário.</span>
 
 <h3>Módulo 08</h3>
-<b>Iniciando front-end do app</b>
+<b>Iniciando front-end do app ✅</b>
 <br />
 <span>Durante esse módulo criaremos a versão web da aplicação GoBarber que será utilizada pelos usuários que prestam serviços dentro da aplicação.</span>
 
