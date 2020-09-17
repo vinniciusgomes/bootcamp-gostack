@@ -75,7 +75,7 @@
 <span>Durante esse módulo criaremos a versão web da aplicação GoBarber que será utilizada pelos usuários que prestam serviços dentro da aplicação.</span>
 
 <h3>Módulo 09</h3>
-<b>Iniciando aplicativo mobile</b>
+<b>Iniciando aplicativo mobile ✅</b>
 <br />
 <span>Nesse módulo criaremos a versão mobile do GoBarber que será utilizada pelos usuários para agendar serviços dentro da plataforma.</span>
 <br />
