@@ -79,7 +79,7 @@
 <br />
 <span>Nesse módulo criaremos a versão mobile do GoBarber que será utilizada pelos usuários para agendar serviços dentro da plataforma.</span>
 <br />
-<b>Desafio: Fundamentos React-Native </b>
+<b>Desafio: Fundamentos React-Native ✅</b>
 <br />
 <span>Nesse desafio, desenvolverá uma nova aplicação, a GoMarketplace. Dessa vez é hora de você praticar o que você aprendeu até agora no React Native, junto com TypeScript, utilizando rotas, Async Storage e a Context API.</span>
 
