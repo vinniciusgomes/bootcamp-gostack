@@ -83,6 +83,28 @@
 <br />
 <span>Nesse desafio, desenvolverá uma nova aplicação, a GoMarketplace. Dessa vez é hora de você praticar o que você aprendeu até agora no React Native, junto com TypeScript, utilizando rotas, Async Storage e a Context API.</span>
 
+## Nível 04 🚀
+
+<h3>Módulo 10</h3>
+<b>Arquitetura e testes no Node.js ✅</b>
+<br />
+<span>Nessa etapa, continuaremos o projeto iniciado anteriormente adicionando pontos cruciais de arquitetura, design patterns e testes automatizados.</span>
+
+<h3>Módulo 11</h3>
+<b>Continuando back-end do app</b>
+<br />
+<span>Durante esse módulo iremos aprender conceitos mais complexos do back-end da aplicação como relacionamentos complexos, trabalhos em segundo plano, cache, bancos de dados não-relacionais e segurança.</span>
+
+<h3>Módulo 12</h3>
+<b>Finalizando back-end do app</b>
+<br />
+<span>Nesse módulo finalizaremos nosso back-end incluindo as últimas funcionalidades do app e também aprendendo conceitos como MongoDB, variáveis ambiente, validação, cache, segurança, etc.</span>
+<br />
+<b>Desafio: Database relations</b>
+<br />
+<span>Nesse desafio, você vai estar criando uma nova aplicação para aprender novas coisas e treinar o que você aprendeu até agora no Node.js junto ao TypeScript, incluindo o uso de banco de dados com o TypeORM, e relacionamentos ManyToMany!</span>
+
+
 ## :memo: Licença
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
