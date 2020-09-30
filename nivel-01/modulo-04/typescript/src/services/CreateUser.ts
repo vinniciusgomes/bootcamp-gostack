@@ -19,7 +19,7 @@ export default function createUser({ name, email, password }: CreateUserData) {
     name,
     email,
     password,
-  };
+  }
 
   return user;
 }
