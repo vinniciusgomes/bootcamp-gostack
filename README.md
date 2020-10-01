@@ -91,19 +91,60 @@
 <span>Nessa etapa, continuaremos o projeto iniciado anteriormente adicionando pontos cruciais de arquitetura, design patterns e testes automatizados.</span>
 
 <h3>Módulo 11</h3>
-<b>Continuando back-end do app</b>
+<b>Continuando back-end do app ✅</b>
 <br />
 <span>Durante esse módulo iremos aprender conceitos mais complexos do back-end da aplicação como relacionamentos complexos, trabalhos em segundo plano, cache, bancos de dados não-relacionais e segurança.</span>
 
 <h3>Módulo 12</h3>
-<b>Finalizando back-end do app</b>
+<b>Finalizando back-end do app ✅</b>
 <br />
 <span>Nesse módulo finalizaremos nosso back-end incluindo as últimas funcionalidades do app e também aprendendo conceitos como MongoDB, variáveis ambiente, validação, cache, segurança, etc.</span>
 <br />
-<b>Desafio: Database relations</b>
+<b>Desafio: Database relations ✅</b>
 <br />
 <span>Nesse desafio, você vai estar criando uma nova aplicação para aprender novas coisas e treinar o que você aprendeu até agora no Node.js junto ao TypeScript, incluindo o uso de banco de dados com o TypeORM, e relacionamentos ManyToMany!</span>
 
+## Nível 05 🚀
+
+<h3>Módulo 13</h3>
+<b>Finalizando front-end web do app</b>
+<br />
+<span>Nessa etapa continuaremos o desenvolvimento do front-end web da aplicação GoBarber criando as telas e funções que os prestadores de serviço utilizarão para consultar sua agenda e disponibilidade.</span>
+<br />
+<b>Desafio: GoRestaurant Web</b>
+<br />
+<span>Nesse desafio, você irá desenvolver mais uma aplicação, a GoRestaurant. Agora você irá praticar o que você aprendeu até agora no React.js junto com TypeScript, praticando o conceito de CRUD (Create, Read, Update, Delete).</span>
+
+<h3>Módulo 14</h3>
+<b>Finalizando front-end mobile do app</b>
+<br />
+<span>Durante essas aulas, continuaremos o aplicativo mobile com React Native do GoBarber que será utilizado pelos clientes para agendar serviços com os prestadores.</span>
+<br />
+<b>Desafio: GoRestaurant Mobile</b>
+<br />
+<span>Nesse desafio, você irá desenvolver mais uma aplicação, a GoRestaurant, só que dessa vez a versão mobile para o cliente. Agora você irá praticar o que você aprendeu até agora no React Native junto com TypeScript, para criar um pequeno app para pedidos de comida.</span>
+
+<h3>Módulo 15</h3>
+<b>Testes no ReactJS</b>
+<br />
+<span>Nesse módulo, conheceremos as principais ferramentas do ecossistema do React para testar nossas aplicações a fim de garantir que o usuário tenha a mesma experiência com a parte visual da aplicação independente de quantas funcionalidades sejam adicionadas.</span>
+
+## Nível 06 🚀
+
+<h3>Módulo 16</h3>
+<b>Deploy de aplicações Node.JS</b>
+<br />
+<span>Com nossa aplicação pronta, podemos partir para sua publicação a fim disponibilizar nossa API em um endereço público acessível pelos apps front-end e mobile. Aqui também aprenderemos sobre integração contínua e deploy contínuo.</span>
+
+<h3>Módulo 17</h3>
+<b>Deploy de aplicações ReactJS</b>
+<br />
+<span>O front-end web da aplicação não precisa utilizar dos mesmos recursos que o back-end e por isso as estratégias de deploy também mudam. Entenderemos as melhores opções para enviar nosso app à produção.</span>
+
+<h3>Módulo 18</h3>
+<b>Publicação de apps com React Native</b>
+<br />
+<span>Com o app pronto, nesse módulo aprenderemos a enviar a aplicação para Android à Google Play Store e o app iOS para Apple Store para disponibilizarmos nossa aplicação para o mundo.</span>
 
 ## :memo: Licença
 
