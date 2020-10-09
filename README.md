@@ -107,7 +107,7 @@
 ## Nível 05 🚀
 
 <h3>Módulo 13</h3>
-<b>Finalizando front-end web do app</b>
+<b>Finalizando front-end web do app ✅</b>
 <br />
 <span>Nessa etapa continuaremos o desenvolvimento do front-end web da aplicação GoBarber criando as telas e funções que os prestadores de serviço utilizarão para consultar sua agenda e disponibilidade.</span>
 <br />
