@@ -111,7 +111,7 @@
 <br />
 <span>Nessa etapa continuaremos o desenvolvimento do front-end web da aplicação GoBarber criando as telas e funções que os prestadores de serviço utilizarão para consultar sua agenda e disponibilidade.</span>
 <br />
-<b>Desafio: GoRestaurant Web</b>
+<b>Desafio: GoRestaurant Web ✅</b>
 <br />
 <span>Nesse desafio, você irá desenvolver mais uma aplicação, a GoRestaurant. Agora você irá praticar o que você aprendeu até agora no React.js junto com TypeScript, praticando o conceito de CRUD (Create, Read, Update, Delete).</span>
 
