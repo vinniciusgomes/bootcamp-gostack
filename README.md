@@ -116,28 +116,28 @@
 <span>Nesse desafio, você irá desenvolver mais uma aplicação, a GoRestaurant. Agora você irá praticar o que você aprendeu até agora no React.js junto com TypeScript, praticando o conceito de CRUD (Create, Read, Update, Delete).</span>
 
 <h3>Módulo 14</h3>
-<b>Finalizando front-end mobile do app</b>
+<b>Finalizando front-end mobile do app ✅</b>
 <br />
 <span>Durante essas aulas, continuaremos o aplicativo mobile com React Native do GoBarber que será utilizado pelos clientes para agendar serviços com os prestadores.</span>
 <br />
-<b>Desafio: GoRestaurant Mobile</b>
+<b>Desafio: GoRestaurant Mobile ✅</b>
 <br />
 <span>Nesse desafio, você irá desenvolver mais uma aplicação, a GoRestaurant, só que dessa vez a versão mobile para o cliente. Agora você irá praticar o que você aprendeu até agora no React Native junto com TypeScript, para criar um pequeno app para pedidos de comida.</span>
 
 <h3>Módulo 15</h3>
-<b>Testes no ReactJS</b>
+<b>Testes no ReactJS  ✅</b>
 <br />
 <span>Nesse módulo, conheceremos as principais ferramentas do ecossistema do React para testar nossas aplicações a fim de garantir que o usuário tenha a mesma experiência com a parte visual da aplicação independente de quantas funcionalidades sejam adicionadas.</span>
 
 ## Nível 06 🚀
 
 <h3>Módulo 16</h3>
-<b>Deploy de aplicações Node.JS</b>
+<b>Deploy de aplicações Node.JS  ✅</b>
 <br />
 <span>Com nossa aplicação pronta, podemos partir para sua publicação a fim disponibilizar nossa API em um endereço público acessível pelos apps front-end e mobile. Aqui também aprenderemos sobre integração contínua e deploy contínuo.</span>
 
 <h3>Módulo 17</h3>
-<b>Deploy de aplicações ReactJS</b>
+<b>Deploy de aplicações ReactJS  ✅</b>
 <br />
 <span>O front-end web da aplicação não precisa utilizar dos mesmos recursos que o back-end e por isso as estratégias de deploy também mudam. Entenderemos as melhores opções para enviar nosso app à produção.</span>
 
