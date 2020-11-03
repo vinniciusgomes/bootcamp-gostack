@@ -1,4 +1,4 @@
-import styled, { keyframes } from 'styled-components';
+import styled from 'styled-components';
 import { shade } from 'polished';
 
 export const Container = styled.div`
@@ -27,16 +27,15 @@ export const Content = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  place-content: center;
+  justify-content: center;
+  margin: -176px auto 0;
 
   width: 100%;
-  margin: -176px auto;
 
   form {
     margin: 80px 0;
     width: 340px;
     text-align: center;
-
     display: flex;
     flex-direction: column;
 
@@ -67,7 +66,6 @@ export const Content = styled.div`
 export const AvatarInput = styled.div`
   margin-bottom: 32px;
   position: relative;
-
   align-self: center;
 
   img {
@@ -85,23 +83,21 @@ export const AvatarInput = styled.div`
     right: 0;
     bottom: 0;
     border: 0;
-    transition: background-color 0.2s;
-
     cursor: pointer;
+    transition: background-color 0.2s;
 
     display: flex;
     align-items: center;
     justify-content: center;
 
+    input {
+      display: none;
+    }
+
     svg {
       width: 20px;
       height: 20px;
-
       color: #312e38;
-    }
-
-    input {
-      display: none;
     }
 
     &:hover {

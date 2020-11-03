@@ -1,17 +1,20 @@
-import React, { ChangeEvent, useCallback, useRef } from 'react';
+import React, { useCallback, useRef, ChangeEvent } from 'react';
 import { FiMail, FiUser, FiLock, FiCamera, FiArrowLeft } from 'react-icons/fi';
 import { FormHandles } from '@unform/core';
 import { Form } from '@unform/web';
 import * as Yup from 'yup';
-import { Link, useHistory } from 'react-router-dom';
+import { useHistory, Link } from 'react-router-dom';
 
-import getValidationErrors from '../../utils/getValidationErros';
+import api from '../../services/api';
+
+import { useToast } from '../../hooks/toast';
+
+import getValidationErrors from '../../utils/getValidationErrors';
+
 import Input from '../../components/Input';
 import Button from '../../components/Button';
 
 import { Container, Content, AvatarInput } from './styles';
-import api from '../../services/api';
-import { useToast } from '../../hooks/toast';
 import { useAuth } from '../../hooks/auth';
 
 interface ProfileFormData {
@@ -51,7 +54,7 @@ const Profile: React.FC = () => {
               then: Yup.string().required('Campo obrigatório'),
               otherwise: Yup.string(),
             })
-            .oneOf([Yup.ref('password')], 'Confirmação incorreta'),
+            .oneOf([Yup.ref('password'), null], 'Confirmação incorreta'),
         });
 
         await schema.validate(data, {
@@ -69,7 +72,7 @@ const Profile: React.FC = () => {
         const formData = {
           name,
           email,
-          ...(data.old_password
+          ...(old_password
             ? {
                 old_password,
                 password,
@@ -102,12 +105,11 @@ const Profile: React.FC = () => {
         addToast({
           type: 'error',
           title: 'Erro na atualização',
-          description:
-            'Ocorreu um erro ao atualizar o perfil, tente novamente.',
+          description: 'Ocorreu um erro ao atualizar perfil, tente novamente.',
         });
       }
     },
-    [addToast, history],
+    [addToast, history, updateUser],
   );
 
   const handleAvatarChange = useCallback(
@@ -139,6 +141,7 @@ const Profile: React.FC = () => {
           </Link>
         </div>
       </header>
+
       <Content>
         <Form
           ref={formRef}
@@ -152,32 +155,36 @@ const Profile: React.FC = () => {
             <img src={user.avatar_url} alt={user.name} />
             <label htmlFor="avatar">
               <FiCamera />
+
               <input type="file" id="avatar" onChange={handleAvatarChange} />
             </label>
           </AvatarInput>
 
           <h1>Meu perfil</h1>
 
-          <Input name="name" type="text" placeholder="Nome" icon={FiUser} />
-          <Input name="email" type="text" placeholder="E-mail" icon={FiMail} />
+          <Input name="name" icon={FiUser} placeholder="Nome" />
+          <Input name="email" icon={FiMail} placeholder="E-mail" />
+
           <Input
             containerStyle={{ marginTop: 24 }}
             name="old_password"
+            icon={FiLock}
             type="password"
             placeholder="Senha atual"
-            icon={FiLock}
           />
+
           <Input
             name="password"
+            icon={FiLock}
             type="password"
             placeholder="Nova senha"
-            icon={FiLock}
           />
+
           <Input
             name="password_confirmation"
+            icon={FiLock}
             type="password"
             placeholder="Confirmar senha"
-            icon={FiLock}
           />
 
           <Button type="submit">Confirmar mudanças</Button>

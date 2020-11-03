@@ -5,14 +5,18 @@ import { Form } from '@unform/web';
 import * as Yup from 'yup';
 import { Link, useHistory } from 'react-router-dom';
 
-import getValidationErrors from '../../utils/getValidationErros';
-import Input from '../../components/Input';
-import Button from '../../components/Button';
+import api from '../../services/api';
+
+import { useToast } from '../../hooks/toast';
+
+import getValidationErrors from '../../utils/getValidationErrors';
+
 import logoImg from '../../assets/logo.svg';
 
-import { Container, Content, Background, AnimationContainer } from './styles';
-import api from '../../services/api';
-import { useToast } from '../../hooks/toast';
+import Input from '../../components/Input';
+import Button from '../../components/Button';
+
+import { Container, Content, AnimationContainer, Background } from './styles';
 
 interface SignUpFormData {
   name: string;
@@ -73,24 +77,21 @@ const SignUp: React.FC = () => {
   return (
     <Container>
       <Background />
+
       <Content>
         <AnimationContainer>
           <img src={logoImg} alt="GoBarber" />
 
           <Form ref={formRef} onSubmit={handleSubmit}>
-            <h1>Faça seu Cadastro</h1>
-            <Input name="name" type="text" placeholder="Nome" icon={FiUser} />
-            <Input
-              name="email"
-              type="text"
-              placeholder="E-mail"
-              icon={FiMail}
-            />
+            <h1>Faça seu cadastro</h1>
+
+            <Input name="name" icon={FiUser} placeholder="Nome" />
+            <Input name="email" icon={FiMail} placeholder="E-mail" />
             <Input
               name="password"
+              icon={FiLock}
               type="password"
               placeholder="Senha"
-              icon={FiLock}
             />
 
             <Button type="submit">Cadastrar</Button>

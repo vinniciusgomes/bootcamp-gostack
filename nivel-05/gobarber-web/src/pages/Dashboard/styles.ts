@@ -1,5 +1,5 @@
-import { shade } from 'polished';
 import styled from 'styled-components';
+import { shade } from 'polished';
 
 export const Container = styled.div``;
 
@@ -66,7 +66,6 @@ export const Profile = styled.div`
 export const Content = styled.main`
   max-width: 1120px;
   margin: 64px auto;
-
   display: flex;
 `;
 
@@ -81,9 +80,9 @@ export const Schedule = styled.div`
   p {
     margin-top: 8px;
     color: #ff9000;
-
     display: flex;
     align-items: center;
+    font-weight: 500;
 
     span {
       display: flex;
@@ -103,7 +102,7 @@ export const Schedule = styled.div`
 export const NextAppointment = styled.div`
   margin-top: 64px;
 
-  strong {
+  > strong {
     color: #999591;
     font-size: 20px;
     font-weight: 400;
@@ -124,7 +123,6 @@ export const NextAppointment = styled.div`
       width: 1px;
       left: 0;
       top: 10%;
-
       content: '';
       background: #ff9000;
     }
@@ -162,7 +160,6 @@ export const Section = styled.section`
     font-size: 20px;
     line-height: 26px;
     border-bottom: 1px solid #3e3b47;
-
     display: block;
     padding-bottom: 16px;
     margin-bottom: 16px;
@@ -195,9 +192,9 @@ export const Appointment = styled.div`
   }
 
   div {
-    display: flex;
     flex: 1;
     background: #3e3b47;
+    display: flex;
     align-items: center;
     padding: 16px 24px;
     border-radius: 10px;
@@ -221,13 +218,12 @@ export const Calendar = styled.aside`
   width: 380px;
 
   .DayPicker {
+    background: #28262e;
     border-radius: 10px;
   }
 
   .DayPicker-wrapper {
     padding-bottom: 0;
-    background: #3e3b47;
-    border-radius: 10px;
   }
 
   .DayPicker,
@@ -235,33 +231,10 @@ export const Calendar = styled.aside`
     width: 100%;
   }
 
-  .DayPicker-NavButton {
-    color: #999591 !important;
-  }
-
-  .DayPicker-NavButton--prev {
-    right: auto;
-    left: 1.5em;
-    margin-right: 0;
-  }
-
   .DayPicker-Month {
     border-collapse: separate;
     border-spacing: 8px;
-    margin: 16px 0 0 0;
-    padding: 16px;
-    background-color: #28262e;
-    border-radius: 0 0 10px 10px;
-  }
-
-  .DayPicker-Caption {
-    margin-bottom: 1em;
-    padding: 0 1em;
-    color: #f4ede8;
-
-    > div {
-      text-align: center;
-    }
+    margin: 16px;
   }
 
   .DayPicker-Day {
