@@ -142,7 +142,7 @@
 <span>O front-end web da aplicação não precisa utilizar dos mesmos recursos que o back-end e por isso as estratégias de deploy também mudam. Entenderemos as melhores opções para enviar nosso app à produção.</span>
 
 <h3>Módulo 18</h3>
-<b>Publicação de apps com React Native</b>
+<b>Publicação de apps com React Native ✅</b>
 <br />
 <span>Com o app pronto, nesse módulo aprenderemos a enviar a aplicação para Android à Google Play Store e o app iOS para Apple Store para disponibilizarmos nossa aplicação para o mundo.</span>
 
